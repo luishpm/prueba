@@ -10,7 +10,7 @@
 <script src="<%=request.getContextPath()%>/resources/js/explorer.js"></script>
 <script src="<%=request.getContextPath()%>/resources/js/prototype.js"></script>
 
-<table >
+<table colspan="0">
 	<tr>
 		<td colspan="2">
 			<h1>
