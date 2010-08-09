@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    The "bighorn" skin is intended to be used as the new basis for custom skin development, replacing the existing
+    "default", "classic" and "text" skins.  This skin has several improvements over the existing skins, including:
+    
+    1) Cleaner skin files which use more advanced CSS selectors for reduced file sizes
+    2) Built-in custom CSS files for more straightforward customization
+    3) A 100% CSS-based solution for multilevel menus.
+    
+    This skin utilizes more complex CSS selectors in fewer CSS files for an overall reduction in the amount of
+    CSS.  This combined with the lack of Javascript usage in the skin is intended to provide a more malleable
+    and more easily customizable skin.
+-->
+<skin 
+    xmlns="http://www.bea.com/servers/portal/framework/laf/1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.bea.com/servers/portal/framework/laf/1.0.0 laf-skin-1_0_0.xsd"
+>
+    <target-skeleton>
+        <skeleton-id>bighorn</skeleton-id>
+    </target-skeleton>
+    <images>
+        <search-path>
+            <path-element>images</path-element>
+            
+            <!--  from the wlp-tools skin -->
+          <path-element>../wlp-tools/images</path-element>
+        </search-path>
+    </images>
+    <render-dependencies>
+        <html>
+            <links>
+                <search-path>
+                    <path-element>css</path-element>
+                    
+                   <!-- from wlp-tools skin -->
+                    <path-element>../wlp-tools/custom/css</path-element>
+                    <path-element>../wlp-tools/css</path-element> 
+                </search-path>
+                
+                
+                
+                <link href="colors.css" rel="stylesheet" type="text/css" />
+                <link href="general.css" rel="stylesheet" type="text/css" />
+                <link href="menu.css" rel="stylesheet" type="text/css" />
+                <link href="window.css" rel="stylesheet" type="text/css" />
+                <link href="wsrp.css" rel="stylesheet" type="text/css" />
+                <link href="custom.css" rel="stylesheet" type="text/css" />
+                
+                
+            </links>
+            
+            
+            <!--  from wlp-tools skin -->
+            <scripts>
+                <search-path>
+                    <path-element>../wlp-tools/js</path-element>
+                    <path-element>../../../js</path-element>
+                </search-path>
+                <script type="text/javascript"                     src="com/bea/portal/tools/js/Core.js"/>
+                <script type="text/javascript"                     src="com/bea/portal/tools/js/Core.jsp"/>
+                <script type="text/javascript"                     src="com/bea/portal/tools/js/javascriptConstants.jsp"/>
+                <script type="text/javascript"                   src="com/bea/portal/tools/js/Math.js"/>
+                <script type="text/javascript"                   src="com/bea/portal/tools/js/skin/FeatureProviderManager.js"/>
+                <script type="text/javascript"                   src="com/bea/portal/tools/js/skin/ProgressManager.js"/>
+                <script type="text/javascript"                   src="com/bea/portal/tools/js/html/Form.js"/>
+                <script type="text/javascript"                   src="com/bea/portal/tools/js/html/Event.js"/>
+                <script type="text/javascript" src="progress-manager.js"/>
+                <script type="text/javascript" src="progress-manager.jsp"/>
+                <script type="text/javascript" src="main-menu.js"/>
+                <script type="text/javascript" src="resize-collapse.js"/>
+                <script type="text/javascript" src="skin.js"/>
+            </scripts>
+            
+            <!--  from wlp-tools skin -->
+                    
+           <styles>         
+                <search-path>
+                    <path-element>../wlp-tools/custom/css</path-element>
+                    <path-element>../wlp-tools/css</path-element>
+                </search-path>
+                <style content-uri="wlp-ajax-image.css" type="text/css" />
+            </styles>
+        </html>
+    </render-dependencies>
+</skin>

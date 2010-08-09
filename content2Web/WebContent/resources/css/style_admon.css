@@ -1,0 +1,949 @@
+BODY {
+    BACKGROUND-COLOR: #dee3e7;
+	FONT-SIZE: 11px; 
+	COLOR: #000000; 
+	FONT-FAMILY: Verdana;
+	MARGIN: 0px; 
+	SCROLLBAR-FACE-COLOR: #efefef; 
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; 
+	SCROLLBAR-SHADOW-COLOR: #d1d1d1; 
+	SCROLLBAR-3DLIGHT-COLOR: #ffffff; 
+	SCROLLBAR-ARROW-COLOR: #4A6D13; 
+	SCROLLBAR-DARKSHADOW-COLOR: #d1d1d1; 
+	SCROLLBAR-TRACK-COLOR: #cccccc;
+}
+
+.infoUser{
+    color: #ffffff;
+    font-size: 11px;
+}
+
+INPUT.texto
+{		
+	background-color:#FFFFFF; 
+	border:1px solid; 
+	border-color:#B1B1B1; 
+	font-family:verdana; color: #454545;
+	font-size:11px
+}
+textarea
+{		
+	background-color:#FFFFFF; 
+	border:1px solid; 
+	border-color:#B1B1B1; 
+	font-family:verdana; color: #454545;
+	font-size:11px
+}
+SELECT.gris
+{		
+	background-color:#FFFFFF; 
+	border:1px solid; 
+	border-color:#B1B1B1; 
+	font-family: verdana; color: #454545;
+	font-size:11px
+}
+A:link {
+	FONT-SIZE: 11px; 
+	COLOR: #000000; 
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif; 
+	text-decoration:none;  
+}
+A:visited {
+	FONT-SIZE: 11px; 
+	COLOR: #000000; 
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif; 
+	text-decoration:none;  
+}
+A:active {
+	bold; FONT-SIZE: 11px; 
+	COLOR: #000000; 
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif; 
+	text-decoration:none;  
+}
+A:hover {
+	FONT-SIZE: 11px; 
+	COLOR: #0875AD; 
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif; 
+	text-decoration:none;  
+}
+.titulo{
+	FONT-SIZE: 13px; 
+	COLOR: #000000; 
+	FONT-FAMILY: Verdana, Arial, sans-serif; 
+	FONT-WEIGHT: bold; 
+}
+.subtit{
+	FONT-SIZE: 12px; 
+	COLOR: #013239; 
+	FONT-FAMILY: Helvetica, Arial, sans-serif; 
+	FONT-WEIGHT: bold; 
+	LETTER-SPACING:3px;
+}
+.subtitw{
+	FONT-SIZE: 12px; 
+	FONT-FAMILY: Helvetica, Arial, sans-serif; 
+	FONT-WEIGHT: bold; 
+	LETTER-SPACING:3px;
+	vertical-align: bottom;
+	height:50px !important;
+	padding: 15px 0 15px 0;
+	
+	/*background: white url(/admin/resources/images/roaming/headerBg.gif) repeat-x bottom fixed;*/
+	
+	background-image: url("/admin/resources/images/roaming/headerBg.gif") !important;   
+	background-color: none !important;
+	background-position: bottom fixed !important;
+	background-repeat: repeat-x !important; 
+}
+
+
+
+.tabla {
+	FONT-SIZE: 11px; 
+	MARGIN: 0px; 
+	COLOR: #ffffff; 
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif;
+
+}
+A.telcel:link {
+	FONT-SIZE: 13px; 
+	COLOR: #000000; 
+	FONT-FAMILY: Verdana, Arial, sans-serif; 
+	text-decoration: underline;  FONT-WEIGHT: bold; 
+}
+A.telcel:visited {
+	FONT-SIZE: 13px; 
+	COLOR: #000000; 
+	FONT-FAMILY:  Verdana, Helvetica, Arial, sans-serif; 
+	text-decoration:underline;  FONT-WEIGHT: bold; 
+}
+A.telcel:active {
+	bold; FONT-SIZE: 13px; 
+	COLOR: #000000; 
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif; 
+	text-decoration:underline;  FONT-WEIGHT: bold; 
+}
+A.telcel:hover {
+	FONT-SIZE: 13px; 
+	COLOR: #0875AD; 
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif; 
+	text-decoration: underline;  FONT-WEIGHT: bold; 
+}
+.usr {
+	FONT-SIZE: 11px; 
+	MARGIN: 0px; 
+	COLOR: #ffffff; 
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif
+}
+A.top:link {
+	FONT-SIZE: 11px; 
+	COLOR: #ffffff; 
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif; 
+	text-decoration:none;  
+}
+A.top:visited {
+	FONT-SIZE: 11px; 
+	COLOR: #ffffff; 
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif; 
+	text-decoration:none;  
+}
+A.top:active {
+	bold; FONT-SIZE: 11px; 
+	COLOR: #ffffff; 
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif; 
+	text-decoration:none;  
+}
+A.top:hover {
+	FONT-SIZE: 11px; 
+	COLOR: #7CC3CE; 
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif; 
+	text-decoration:underline;  
+}
+
+A.whiteBox {
+        background-color: #fff;
+        font-size: 11px;        
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight:  normal !important; 
+        text-decoration:none !important;
+        color: #000 !important;
+        border: solid 1px #000;
+        height: 20px;
+        margin: 0 0px 0 5px !important;
+        margin: 0 0px 0 5px; /* IE margin fix */
+        padding: 2px 10px 2px 10px;
+    }
+
+
+input.button, input.submit {
+    font-size: 11px;
+    font-family: Helvetica, Arial, sans-serif;
+    border: solid 1px #000; 
+}
+
+
+
+
+/***************    StyleSheet for Validation Errors   ****************/
+
+.errors {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FF0000;	
+}
+
+
+/***************    StyleSheet for CRUD templates   ****************/
+
+div.header {
+    float: center;
+    padding: 20px 0 20px 0; 
+    width: 100%;  
+}
+div.footer {
+    float: left;
+    padding: 20px 0 20px 0;
+    width: 100%;  
+}
+
+
+h2 {
+    float: center;
+    padding: 20px 0 20px 0; 
+    width: 100%;
+}
+h5 {
+    
+    
+    margin: 0px;
+    padding: 0px; 
+    width: 100%;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: left;
+    font-family: Verdana, Helvetica, Arial, sans-serif
+}
+
+A.detail:link, A.detail:visited, A.detail:active {
+    font-weight: bold;
+	font-size: 11px; 
+	color: #000000; 
+	font-family: Verdana, Arial, sans-serif; 
+	text-decoration: underline;  
+}
+
+A.detail:hover {
+    font-weight: bold;
+	font-size: 11px; 
+	color: #0875AD; 
+	font-family: Verdana, Helvetica, Arial, sans-serif; 
+	text-decoration: underline;  
+}
+
+.message {
+    width: 80%;
+    background-color: #FFFFFF;    
+	border: 1px solid blue;
+	margin: 0 0 5px 0;
+	padding: 0;
+    font-weight:bold;
+    color: blue;
+	font-size: 11px;
+    text-align:left;
+    font-family: Verdana, Helvetica, Arial, sans-serif		
+	} 
+.messageRoaming {
+    width: 90%;
+    background-color: #FFFFFF;    
+	border: 1px solid blue;
+	margin: 0 0 5px 0;
+	padding: 0;
+    font-weight:bold;
+    color: blue;
+	font-size: 11px;
+    text-align:left;
+    font-family: Verdana, Helvetica, Arial, sans-serif		
+	}	   
+    .info-icon {
+		background-image: url(/admin/resources/images/successfully.gif);
+        background-position: left;
+        background-repeat: no-repeat;                    
+		padding: 5px 20px 5px 25px;
+		}
+    .error-icon {
+        background: url(../images/icon_error.gif) 10px 9px no-repeat;
+        padding: 10px 10px 10px 35px;
+    }
+	
+	.alert-message {
+        background: url(../images/alert_blink.gif) 10px 9px no-repeat;
+        padding: 10px 10px 10px 35px;
+		color: red;
+		font-size: 11px;
+		text-align:left;
+		font-family: Verdana, Helvetica, Arial, sans-serif
+    }
+	
+#addNew {
+    width: 80%;
+	padding: 0 !important; 
+			margin: 0  !important;
+			height: auto  !important;
+    }
+	
+	#addNew div#emptylist {
+		padding: 10px 0 10px 0;
+		color: red;
+		font-weight: bold;
+		font-size: 11px;
+		text-align:center;
+		font-family: Verdana, Helvetica, Arial, sans-serif
+	}    	
+    
+    #addNew form {        
+			padding: 0 !important; 
+			margin: 0  !important;
+			height: auto  !important;
+        }
+    
+        #addNew form fieldset {
+            margin: 0;
+            padding: 0 0 1px 0;
+            border-bottom: 1px solid #CCCCCC;
+            border-left: 1px solid #CCCCCC;
+            border-right: 1px solid #CCCCCC;
+            border-top: 1px solid #CCCCCC;
+            width: 100%; 
+            }
+            
+        #addNew form legend {
+            color: #013239;
+            font-weight: bold;
+            font-size: 11px;
+            text-align:right;
+            font-family: Verdana, Helvetica, Arial, sans-serif
+            }
+			
+
+            
+            #addNew table {
+                padding: 0 !important; 
+			margin: 0  !important;
+			height: auto  !important;
+                border-collapse: collapse;                            
+                width: 100%;                
+                }
+                                
+                #addNew table th {
+                    background-color: #10497D;
+                    font-size: 11px; 
+                    margin: 0px; 
+                    color: #ffffff; 
+                    font-family: Verdana, Helvetica, Arial, sans-serif
+                    background: #dee3e7; 
+                    border: solid 1px #dee3e7          
+                    } 
+                #addNew table td {
+                    font-size: 11px; 
+                    color: #013239; 
+                    font-family: Verdana, Helvetica, Arial, sans-serif   
+                    background: #dee3e7; 
+                    border: solid 1px #dee3e7 
+                    }
+                
+                #addNew table td.fieldname {
+                    width: 45%;  
+                    background: #ADC7D6;                    
+                    text-align: right;           
+                    } 
+                #addNew table td.fieldnameleft {
+                    width: 45%;  
+                    background: #ADC7D6;                    
+                    text-align: left;           
+                    }    
+					
+                #addNew table td.fieldvalue {
+                    width: 55%;   
+                    background: #C7D9E7;
+                    text-align: left;            
+                    }
+                #addNew ul li {
+					text-align: left;
+					border: none;
+					height: auto;
+					margin: 0;
+					padding: 0;
+					z-index: 20;
+					}                                    
+
+
+
+#detail {
+    width: 80%;
+    }
+    
+    #detail div#ms {
+        float: center;
+        padding: 10px 0 10px 0;
+    }
+        
+    #detail div#ms a {
+        background-color: #fff;
+        font-size: 11px;        
+        font-family: Helvetica, Arial, sans-serif;
+        border: solid 1px #000;
+        height: 20px;
+        margin: 0 0px 0 5px !important;
+        margin: 0 0px 0 5px; /* IE margin fix */
+        padding: 2px 10px 2px 10px;
+    }
+    #detail div#emptylist {
+        padding: 10px 0 10px 0;
+        background-color: #dee3e7;
+    }
+    
+    #detail fieldset {       
+        width: 100%;
+        border:1px solid #CCCCCC 
+        color: #013239;
+        font-size: 11px;
+        text-align: center;
+        font-family: Verdana, Helvetica, Arial, sans-serif       
+        }
+            
+        #detail legend {        
+            padding: 0.1em 0.1em;
+            border-top: 1px solid #CCCCCC;
+            color: #013239;
+            font-weight: bold;
+            font-size: 11px;
+            text-align:right;
+            font-family: Verdana, Helvetica, Arial, sans-serif
+            }
+            
+            #detail table {
+                margin: 0px;
+                padding: 0px;
+                border-collapse: collapse;                            
+                width: 100%;   
+                }
+                                
+                #detail table th {
+                    background-color: #10497D;
+                    font-size: 11px; 
+                    margin: 0px; 
+                    color: #ffffff; 
+                    font-family: Verdana, Helvetica, Arial, sans-serif
+                    background: #dee3e7; 
+                    border: solid 1px #dee3e7            
+                    }
+                #detail table td {
+                    FONT-SIZE: 11px; 
+                    COLOR: #013239; 
+                    FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif   
+                    background: #dee3e7; 
+                    border: solid 1px #dee3e7 
+                    } 
+                
+                #detail table td.fieldname {  
+                    width: 50%;  
+                    background: #ADC7D6;                    
+                    text-align: right; 
+                    } 
+                    
+                #detail table td.fieldvalue {  
+                    width: 50%;   
+                    background: #C7D9E7;
+                    text-align: left;                      
+                    }
+                
+                #detail ul{
+                    list-style: none; 
+                                     
+                    margin: 2px;
+                    }
+                    #detail li{                    
+                        background-image: url(/admin/resources/images/vinetafrec.gif);
+                        background-position: left center;
+                        background-repeat: no-repeat; 
+                        border-bottom: 1px solid #dee3e7;                       
+                        padding-left: 10px; 
+                        }
+						
+#search {
+    width: 80%;
+    }
+    
+    #search div#ms {
+        float: center;
+        padding: 10px 0 10px 0;
+    }
+        
+    #search div#ms a {
+        background-color: #fff;
+        font-size: 11px;        
+        font-family: Helvetica, Arial, sans-serif;
+        border: solid 1px #000;
+        height: 20px;
+        margin: 0 0px 0 5px !important;
+        margin: 0 0px 0 5px; /* IE margin fix */
+        padding: 2px 10px 2px 10px;
+    }
+    #search div#emptylist {
+        padding: 10px 0 10px 0;
+        background-color: #dee3e7;
+    }
+            
+            
+            #search table {
+                margin: 0px;
+                padding: 0px;
+                border-collapse: collapse;                            
+                width: 100%;   
+                }
+                                
+                #search table th {
+                    background-color: #10497D;
+                    font-size: 11px; 
+                    margin: 0px; 
+                    color: #ffffff; 
+                    font-family: Verdana, Helvetica, Arial, sans-serif
+                    background: #dee3e7; 
+                    border: solid 1px #dee3e7            
+                    }
+                #search table td {
+                    FONT-SIZE: 11px; 
+                    COLOR: #013239; 
+                    FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif   
+                    background: #dee3e7; 
+                    /*border: solid 1px #dee3e7 */
+                    } 
+                
+                #search table td.fieldname {  
+                    width: 50%;  
+                    background: #ADC7D6;                    
+                    text-align: right; 
+                    } 
+                    
+                #search table td.fieldvalue {  
+                    width: 50%;   
+                    background: #C7D9E7;
+                    text-align: left;                      
+                    }					
+                      
+        
+#addServicios {
+    width: 80%;
+    }
+    
+    #addServicios form {        
+        margin: 0;
+        padding: 0;
+        }
+                        
+            #addServicios table {
+                margin: 0px;
+                padding: 0px;
+                border-collapse: collapse;                            
+                width: 100%;                 
+                }
+                                
+                #addServicios table th {
+                    background-color: #10497D;
+                    font-size: 11px; 
+                    margin: 0px; 
+                    color: #ffffff; 
+                    font-family: Verdana, Helvetica, Arial, sans-serif           
+                    } 
+
+                #addServicios table th {
+                    background-color: #10497D;
+                    font-size: 11px; 
+                    margin: 0px; 
+                    color: #ffffff; 
+                    font-family: Verdana, Helvetica, Arial, sans-serif
+                    background: #dee3e7; 
+                    /*border: solid 1px #dee3e7  */        
+                    } 
+                #addServicios table td {
+                    font-size: 11px; 
+                    color: #013239; 
+                    font-family: Verdana, Helvetica, Arial, sans-serif   
+                    background: #dee3e7; 
+                    /*border: solid 1px #dee3e7 */
+                    }
+                #addServicios table td.fieldname {  
+                    width: 50%;  
+                    background: #ADC7D6;                    
+                    text-align: right; 
+                    } 
+                    
+                #addServicios table td.fieldvalue {  
+                    width: 50%;   
+                    background: #C7D9E7;
+                    text-align: left;                      
+                    }
+                    
+                    #addServicios  a.button {
+                        background-color: #fff;
+                        font-size: 11px;        
+                        font-family: Helvetica, Arial, sans-serif;
+                        border: solid 1px #000;
+                        height: 20px;
+                        margin: 0 0px 0 5px !important;
+                        margin: 0 0px 0 5px; /* IE margin fix */
+                        padding: 2px 10px 2px 10px;
+                        }
+                    #addServicios  a.pdf {
+                        background-color: #fff;
+                        font-size: 12px;        
+                        font-family: Arial;
+                        text-decoration: underline;  
+                        } 
+                
+                #addServicios table td input.btnarrow {
+                    font-size: 11px;
+                    font-family: Arial, sans-serif;
+                    border: solid 1px #000; 
+                    width: 50px;                    
+                    }
+                #addServicios table td select {		
+                    background-color:#FFFFFF;                      
+                    font-family: Verdana; 
+                    color: #454545;
+                    font-size: 100%;
+                    width: 100%;
+                }                                       
+                     
+#manuales {
+    width: 500px;
+    }
+    
+    #manuales form {        
+        margin: 0;
+        padding: 0;
+        }
+            
+        #manuales table {
+            margin: 0px;
+            padding: 0px;
+            border-collapse: collapse;                            
+            width: 100%;                
+            }
+                            
+            #manuales table th {
+                background-color: #10497D;
+                font-size: 11px; 
+                margin: 0px; 
+                color: #ffffff; 
+                font-family: Verdana, Helvetica, Arial, sans-serif
+                background: #dee3e7; 
+                border: solid 1px #dee3e7          
+                } 
+            #manuales table td {
+                font-size: 11px; 
+                color: #013239; 
+                font-family: Verdana, Helvetica, Arial, sans-serif   
+                background: #dee3e7; 
+                border: solid 1px #dee3e7 
+                }
+            
+            #manuales table td.fieldname {
+                width: 45%;  
+                background: #ADC7D6;                    
+                text-align: right;           
+                } 
+                
+            #manuales table td.fieldvalue {
+                width: 55%;   
+                background: #C7D9E7;
+                text-align: left;            
+                }
+                     
+            #manuales  a.button {
+                background-color: #fff;
+                font-size: 11px;        
+                font-family: Helvetica, Arial, sans-serif;
+                border: solid 1px #000;
+                height: 20px;
+                margin: 0 0px 0 5px !important;
+                margin: 0 0px 0 5px; /* IE margin fix */
+                padding: 2px 10px 2px 10px;
+                }
+				
+#addManuales {
+    width: 80%;
+    }
+    
+    #addManuales form {        
+        margin: 0;
+        padding: 0;
+        }
+                        
+            #addManuales table {
+                margin: 0px;
+                padding: 0px;
+                border-collapse: collapse;                            
+                width: 100%;                 
+                }
+                                
+                #addManuales table th {
+                    background-color: #10497D;
+                    font-size: 11px; 
+                    margin: 0px; 
+                    color: #ffffff; 
+                    font-family: Verdana, Helvetica, Arial, sans-serif           
+                    } 
+
+                #addManuales table th {
+                    background-color: #10497D;
+                    font-size: 11px; 
+                    margin: 0px; 
+                    color: #ffffff; 
+                    font-family: Verdana, Helvetica, Arial, sans-serif
+                    background: #dee3e7; 
+                    /*border: solid 1px #dee3e7  */        
+                    } 
+                #addManuales table td {
+                    font-size: 11px; 
+                    color: #013239; 
+                    font-family: Verdana, Helvetica, Arial, sans-serif   
+                    background: #dee3e7; 
+                    border: solid 1px #dee3e7 
+                    }
+                #addManuales table td.fieldname {  
+                    width: 50%;  
+                    background: #ADC7D6;                    
+                    text-align: right; 
+                    } 
+                    
+                #addManuales table td.fieldvalue {  
+                    width: 50%;   
+                    background: #C7D9E7;
+                    text-align: left;                      
+                    }
+                    
+                    #addManuales  a.button {
+                        background-color: #fff;
+                        font-size: 11px;        
+                        font-family: Helvetica, Arial, sans-serif;
+                        border: solid 1px #000;
+                        height: 20px;
+                        margin: 0 0px 0 5px !important;
+                        margin: 0 0px 0 5px; /* IE margin fix */
+                        padding: 2px 10px 2px 10px;
+                        }
+                    #addManuales  a.pdf {
+                        background-color: #fff;
+                        font-size: 12px;        
+                        font-family: Arial;
+                        text-decoration: underline;  
+                        } 
+                
+                #addManuales table td input.btnarrow {
+                    font-size: 11px;
+                    font-family: Arial, sans-serif;
+                    border: solid 1px #000; 
+                    width: 50px;                    
+                    }
+                #addManuales table td select {		
+                    background-color:#FFFFFF;                      
+                    font-family: Verdana; 
+                    color: #454545;
+                    font-size: 100%;
+                    width: 100%;
+                } 				
+				
+				
+
+#roaming {
+    width: 100%;
+    }
+	
+    
+#roamingindex {
+	width: 90%;
+}	
+	#roamingindex table.datosgenerales {
+			margin: 0px !important;
+			padding: 0px;
+			border-collapse: collapse;                            
+			width: 100%;                 
+				font-family:Tahoma;
+    font-size:8pt;
+			}
+				
+		#roamingindex table.datosgenerales tr.fields {
+				background: url(/admin/resources/images/divider.gif) left bottom repeat-x;
+				}	
+			
+			#roamingindex table.datosgenerales td.fieldname {
+					
+					margin: 0px !important;
+					padding: 2px 0px 2px 10px;		
+					}		
+						
+			#roamingindex table.datosgenerales td.fieldvalue {
+					margin: 0px !important;
+					padding: 2px 0px 2px 0px;		
+					}
+			#roamingindex table.datosgenerales td.tabs {
+					margin: 0px !important;
+					padding: 2px 8px 2px 8px;		
+					}	
+					
+	#roamingindex table.frecuencias {
+			margin: 0px !important;
+			padding: 0px;
+			border-collapse: collapse;                            
+			width: 100%;                 
+			font-family:Tahoma;
+			font-size:8pt;
+			}
+
+
+form.cmxform {
+	    margin: 0px !important;
+        padding: 0;
+	
+		
+						
+	}
+		
+.widgetTable
+{
+    /*BORDER-RIGHT: gray 1px solid;
+    BORDER-TOP: gray 1px solid;
+    BORDER-LEFT: gray 1px solid;
+	BORDER-BOTTOM: gray 1px solid;
+	*/
+    WIDTH: 100%;
+    
+}		 
+
+.widgetTDContent
+{
+    HEIGHT: 0px;
+    vAlign: top
+}
+
+.widgetDIV
+{
+    FONT-SIZE: larger;
+    OVERFLOW: hidden;
+    COLOR: crimson;
+    FONT-FAMILY: 'Comic Sans MS', Arial;
+    HEIGHT: 100%;
+    BACKGROUND-COLOR: white
+}
+
+
+
+table.widget {
+
+	border-left:1px solid lightgrey;
+	border-right:1px solid lightgrey;
+	border-bottom:1px solid lightgrey;
+}
+
+table.widget th {
+	color:#616161;
+	background:url(/admin/resources/images/roaming/widget_header.gif) left top repeat-x;
+	border:0px;
+	font-family:Tahoma;
+	font-size:8pt;
+	font-weight: bold;
+	text-align: left;
+	margin:0px;
+	padding:4px 0px 3px 3px ;
+	font-weight:bold;
+    -moz-user-select:none;
+    overflow:hidden;
+	}
+table.widget td.container {
+	border:0px;
+	background: #f9f9f1 url(/admin/resources/images/widget_bg_1.gif) left top repeat-x;
+	font-family:Tahoma;
+	font-size:8pt;
+    -moz-user-select:none;
+    overflow:hidden;
+    padding-top:0px;
+    padding-bottom:0px;
+	vertical-align:middle;
+	}
+
+
+
+
+/* xp skin ------------------------------------------------------*/
+div.gridbox_xp{
+	border:1px solid lightgrey;
+	width: 100%;
+}
+div.gridbox_xp table.obj th {
+	color:#616161;
+	background-image:url(/admin/resources/images/header_bg_60.gif);
+	border:0px;
+	text-align: center;
+	margin:0px;
+	padding:5px 0px 5px 0px ;
+	font-weight:bold;
+    -moz-user-select:none;
+    overflow:hidden;
+	}
+div.gridbox_xp table.obj th div.hdrcell{
+	border-left: 1px solid white;
+	border-right: 1px solid gray;
+	height:16px;
+	white-space : nowrap;
+	font-family:Tahoma;
+	font-size:8pt;
+	font-weight:bold;
+}
+
+div.gridbox_xp table.obj td.row {
+	border:0px;
+	border-bottom: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+	font-family:Tahoma;
+	font-size:8pt;
+    -moz-user-select:none;
+    overflow:hidden;
+    padding-top:0px;
+    padding-bottom:0px;
+	vertical-align:middle;
+	height:20px;
+	}
+div.gridbox_xp table.obj td.row2 {
+	border:0px;
+	border-bottom: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+	font-family:Tahoma;
+	font-size:8pt;
+    -moz-user-select:none;
+    overflow:hidden;
+    padding-top:0px;
+    padding-bottom:0px;
+	vertical-align:middle;
+	}	
+div.gridbox table.obj tr.rowselected td{
+	background-color:whitesmoke;
+	color:black;
+	}
+div.gridbox table.obj tr.rowselected td.cellselected, div.gridbox table.obj td.cellselected {
+	background-color:whitesmoke;
+	}
+div.gridbox_xp table.row20px tr  td{
+    height:22px;
+    white-space: nowrap;
+    padding:1px;
+}
+/* gray skin --------------------------------------------------*/
+
+div.gridbox_gray {
+	border:1px solid gray;
+	background-color:#D4D0C8;
+}
+

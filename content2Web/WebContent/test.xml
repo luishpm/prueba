@@ -1,0 +1,11 @@
+<root>
+<titulo tipo="texto" label="Titulo" />
+<imagen tipo="imagen" label="Imagen de titulo" />
+<parrafo repetir="si" label="Parrafo">
+	<titulo tipo="texto" label="Titulo" />
+	<imagen tipo="imagen" label="Imagen de parrafo" />
+	<contenido tipo="texto" label="Contenido" />
+	<pie tipo="texto" label="Pie de parrafo" />
+</parrafo>
+<parrafoLibre tipo="libre" label="Parrafo libre" />
+</root>

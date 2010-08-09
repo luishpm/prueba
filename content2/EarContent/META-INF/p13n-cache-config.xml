@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p13n-cache-config xmlns="http://www.bea.com/ns/p13n/90/p13n-cache-config">
+    <!-- This is the caches for the default content repository.
+         The IDE should copy this to META-INF/p13n-cache-config.xml of the
+         application.
+         These caches are for the default WLP Repository. You can modify
+         these to fit your needs. If you remove the WLP Repository, you can
+         remove these entries. -->
+    <cache>
+        <name>nodeCache.WLP Repository</name>
+        <description>Caches node id to node instance for WLP Repository</description>
+        <time-to-live>60000</time-to-live>
+        <max-entries>50</max-entries>
+    </cache>
+    <cache>
+        <name>nodePathCache.WLP Repository</name>
+        <description>Caches node path to node instance for WLP Repository</description>
+        <time-to-live>60000</time-to-live>
+        <max-entries>50</max-entries>
+    </cache>
+    <cache>
+        <name>binaryCache.WLP Repository</name>
+        <description>Caches binary property values for WLP Repository</description>
+        <time-to-live>60000</time-to-live>
+        <max-entries>10</max-entries>
+    </cache>
+    <cache>
+        <name>repo.typeIdCache.WLP Repository</name>
+        <description>Caches type id to content type for WLP Repository</description>
+        <time-to-live>60000</time-to-live>
+        <max-entries>100</max-entries>
+    </cache>
+    <cache>
+        <name>repo.typeNameCache.WLP Repository</name>
+        <description>Caches type name to content type for WLP Repository</description>
+        <time-to-live>60000</time-to-live>
+        <max-entries>100</max-entries>
+    </cache>
+    <cache>
+        <name>repo.nodeIdCache.WLP Repository</name>
+        <description>Caches node id to node for WLP Repository</description>
+        <time-to-live>60000</time-to-live>
+        <max-entries>1000</max-entries>
+    </cache>
+    <cache>
+        <name>repo.nodePathCache.WLP Repository</name>
+        <description>Caches node path to node for WLP Repository</description>
+        <time-to-live>60000</time-to-live>
+        <max-entries>1000</max-entries>
+    </cache>
+    <cache>
+        <name>repo.typeBinaryCache.WLP Repository</name>
+        <description>Caches binary property values for WLP Repository</description>
+        <time-to-live>60000</time-to-live>
+        <max-entries>100</max-entries>
+    </cache>
+</p13n-cache-config>

@@ -1,0 +1,26 @@
+<table >
+	<tr>
+		<td colspan="2">
+			<h1>
+				${titulo}
+			</h1>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<img width="99" src="${imagen}">
+		</td>
+		<td>
+			<b> Sinopsis:</b> ${sinopsis}
+			<br/><br/>
+			<b>Director: </b>${director}
+			<br/><br/>
+			<b>Actores: </b>
+			<#list actores as actor>
+			  ${actor.nombre}<br/>
+			</#list>
+						
+			
+		</td>
+	</tr>
+</table>

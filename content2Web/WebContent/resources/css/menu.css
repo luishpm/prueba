@@ -1,0 +1,92 @@
+.navigationBar {
+	background: url(../images/navigation.jpg);
+	width: 100%;
+    z-index: 99;
+}
+#navigation {
+	color: #FFFFFF;
+	font-size: 11px;
+    width: 912px;
+    z-index: 99;
+}
+	#navigation ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+        z-index: 99;
+	}	
+	
+		#navigation ul li {
+			text-align: center;
+			border-right: 1px solid #565656;
+			border-bottom: 1px solid #666666;
+			border-left: 1px solid #8B8B8B;
+			width: 150px;
+			padding: 8px 0 0 0;
+			height: 19px !important;
+			height: 27px;
+			float: left;
+			position: relative;
+			cursor: pointer;
+			background: url(../images/navigation.jpg);
+            z-index: 99;
+		}
+		#navigation ul li a{
+			color: #FFFFFF;	
+            z-index: 99;
+		}
+		#navigation ul li { /* IE hover fix */
+			background-color: expression(
+				this.onmouseover = function(){
+                    exeMouseOver(this);
+                },
+				this.onmouseout =  function(){
+                    exeMouseOut(this);
+                });
+            z-index: 99;
+		}	
+		
+			#navigation ul li ul {
+				background: #EFEFEF;
+				border-right: 1px solid #666666;
+				border-bottom: 1px solid #666666;
+				border-left: 1px solid #666666;
+				height: auto;
+				display: none;
+				position: absolute;
+				top: 28px !important;
+				top: 27px; /* IE fix */
+				left: -1px !important;
+                z-index: 99;
+			}
+			
+				#navigation ul li:hover ul, #navigation ul li.over ul {display: block; }
+			
+					#navigation ul li ul li {
+						text-align: left;
+						border: none;
+						height: auto !important;
+						background: none;
+						padding: 0 0 0 0;
+                        z-index: 99;
+					}
+					
+						#navigation ul li ul li a {
+							text-decoration: none;
+							color: #333333;
+							height: auto;
+							display: block;
+							padding: 5px 0 5px 5px;
+							width: 145px  !important;
+							width: 150px;
+                            z-index: 99;
+						}
+						
+							#navigation ul li ul li a:hover {
+								text-decoration: none;
+								color: #FFFFFF;
+								background: #999999;
+                                z-index: 99;
+							}
+		
+	

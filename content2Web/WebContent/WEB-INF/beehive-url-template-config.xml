@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<url-template-config xmlns="http://beehive.apache.org/netui/2004/server/url-template-config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://beehive.apache.org/netui/2004/server/url-template-config url-template-config.xsd">
+
+
+    <!-- Templates for consuming remote portlets -->
+    <url-template>
+        <name>wsrp-default</name>
+        <value>
+            http://{url:domain}:{url:port}/{url:path}?{url:queryString}&amp;wsrp-urlType={wsrp-urlType}&amp;wsrp-url={wsrp-url}&amp;wsrp-requiresRewrite={wsrp-requiresRewrite}&amp;wsrp-navigationalValues={wsrp-navigationalValues}&amp;wsrp-navigationalState={wsrp-navigationalState}&amp;wsrp-interactionState={wsrp-interactionState}&amp;wsrp-mode={wsrp-mode}&amp;wsrp-windowState={wsrp-windowState}&amp;{weblogic-passthru}
+        </value>
+    </url-template>
+    <url-template>
+        <name>wsrp-secureDefault</name>
+        <value>
+            https://{url:domain}:{url:securePort}/{url:path}?{url:queryString}&amp;wsrp-urlType={wsrp-urlType}&amp;wsrp-url={wsrp-url}&amp;wsrp-requiresRewrite={wsrp-requiresRewrite}&amp;wsrp-navigationalValues={wsrp-navigationalValues}&amp;wsrp-navigationalState={wsrp-navigationalState}&amp;wsrp-interactionState={wsrp-interactionState}&amp;wsrp-mode={wsrp-mode}&amp;wsrp-windowState={wsrp-windowState}&amp;{weblogic-passthru}
+        </value>
+    </url-template>
+    <url-template>
+        <name>wsrp-blockingAction</name>
+        <value>
+            http://{url:domain}:{url:port}/{url:path}?{url:queryString}&amp;wsrp-urlType=blockingAction&amp;wsrp-url={wsrp-url}&amp;wsrp-requiresRewrite={wsrp-requiresRewrite}&amp;wsrp-navigationalValues={wsrp-navigationalValues}&amp;wsrp-navigationalState={wsrp-navigationalState}&amp;wsrp-interactionState={wsrp-interactionState}&amp;wsrp-mode={wsrp-mode}&amp;wsrp-windowState={wsrp-windowState}&amp;{weblogic-passthru}
+        </value>
+    </url-template>
+    <url-template>
+        <name>wsrp-render</name>
+        <value>
+            http://{url:domain}:{url:port}/{url:path}?{url:queryString}&amp;wsrp-urlType=render&amp;wsrp-url={wsrp-url}&amp;wsrp-requiresRewrite={wsrp-requiresRewrite}&amp;wsrp-navigationalValues={wsrp-navigationalValues}&amp;wsrp-navigationalState={wsrp-navigationalState}&amp;wsrp-interactionState={wsrp-interactionState}&amp;wsrp-mode={wsrp-mode}&amp;wsrp-windowState={wsrp-windowState}&amp;{weblogic-passthru}
+        </value>
+    </url-template>
+    <url-template>
+        <name>wsrp-resource</name>
+        <value>
+            http://{url:domain}:{url:port}/{url:path}/resource?{url:queryString}&amp;_nfpb=true&amp;_portlet.renderResource=true&amp;wsrp-urlType=resource&amp;wsrp-url={wsrp-url}&amp;wsrp-requiresRewrite={wsrp-requiresRewrite}&amp;wsrp-resourceID={wsrp-resourceID}&amp;wsrp-preferOperation={wsrp-preferOperation}&amp;wsrp-resourceState={wsrp-resourceState}&amp;wsrp-resourceCacheability={wsrp-resourceCacheability}&amp;{weblogic-passthru}
+        </value>
+    </url-template>
+    <url-template>
+        <name>wsrp-secureBlockingAction</name>
+        <value>
+            https://{url:domain}:{url:securePort}/{url:path}?{url:queryString}&amp;wsrp-urlType=blockingAction&amp;wsrp-secureURL=true&amp;wsrp-url={wsrp-url}&amp;wsrp-requiresRewrite={wsrp-requiresRewrite}&amp;wsrp-navigationalValues={wsrp-navigationalValues}&amp;wsrp-navigationalState={wsrp-navigationalState}&amp;wsrp-interactionState={wsrp-interactionState}&amp;wsrp-mode={wsrp-mode}&amp;wsrp-windowState={wsrp-windowState}&amp;{weblogic-passthru}
+        </value>
+    </url-template>
+    <url-template>
+        <name>wsrp-secureRender</name>
+        <value>
+            https://{url:domain}:{url:securePort}/{url:path}?{url:queryString}&amp;wsrp-urlType=render&amp;wsrp-secureURL=true&amp;wsrp-url={wsrp-url}&amp;wsrp-requiresRewrite={wsrp-requiresRewrite}&amp;wsrp-navigationalValues={wsrp-navigationalValues}&amp;wsrp-navigationalState={wsrp-navigationalState}&amp;wsrp-interactionState={wsrp-interactionState}&amp;wsrp-mode={wsrp-mode}&amp;wsrp-windowState={wsrp-windowState}&amp;{weblogic-passthru}
+        </value>
+    </url-template>
+    <url-template>
+        <name>wsrp-secureResource</name>
+        <value>
+            https://{url:domain}:{url:port}/{url:path}/resource?{url:queryString}&amp;_nfpb=true&amp;_portlet.renderResource=true&amp;wsrp-urlType=resource&amp;wsrp-secureURL=true&amp;wsrp-url={wsrp-url}&amp;wsrp-requiresRewrite={wsrp-requiresRewrite}&amp;wsrp-resourceID={wsrp-resourceID}&amp;wsrp-preferOperation={wsrp-preferOperation}&amp;wsrp-resourceState={wsrp-resourceState}&amp;wsrp-resourceCacheability={wsrp-resourceCacheability}&amp;{weblogic-passthru}
+        </value>
+    </url-template>
+    
+    <url-template>
+        <name>contenido</name>
+        <value>
+            http://{url:domain}:{url:port}/content2Web/content.portal?{url:queryString}&amp;{url:currentPage}
+        </value>
+    </url-template>
+</url-template-config>

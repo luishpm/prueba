@@ -1,0 +1,203 @@
+.base
+{
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	scrollbar-3dlight-color: #CCCCCC; 
+    scrollbar-arrow-color: #0056a5; 
+    scrollbar-base-color: #D1D1D1; 
+	scrollbar-darkshadow-color: #D1D1D1; 
+	scrollbar-face-color: #EFEFEF; 
+	scrollbar-highlight-color: #FFFFFF; 
+	scrollbar-shadow-color: #D1D1D1;
+}
+
+.copyright {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #003366;
+}
+
+.botones {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #003391;
+	text-decoration: none;
+	list-style-type: disc;
+	list-style-image: url(images/bullet.gif);
+}
+
+A.botones:hover {
+	color: #0099FF;
+	text-decoration: none;
+}
+
+.titulos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #eaf3fb;
+	text-decoration: none;
+}
+
+.textos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #4d5f67;
+	text-decoration: none;
+}
+
+.textoPregunta {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #101247;
+}
+
+.botonesNoticias {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #366093;
+}
+
+A.botonesNoticias:hover {
+	color: #0099FF;
+	text-decoration: none;
+}
+
+.textosAzul {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #1e3c88;
+	text-decoration: none;
+}
+
+.formas {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #4d5f67;
+	text-decoration: none;
+	background-color: #EFEFEF;
+}
+
+.listaEquipos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #3375B7;
+	text-decoration: none;
+	list-style-image: url(images/flechaParrafo.gif);
+}
+
+A.listaEquipos:hover {
+	color: #00CCFF;
+	text-decoration: underline;
+}
+
+.botonConfigura {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #CC0000;
+	text-decoration: none;
+	list-style-image: url(images/flechaParrafo.gif);
+}
+
+A.botonConfigura:hover {
+	color: #FF0000;
+	text-decoration: underline;
+}
+
+.subtitulos {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #003399;
+	text-decoration: none;
+}
+.modelosTitulo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #003399;
+	text-decoration: none;
+}
+.lista {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #003399;
+	text-decoration: none;
+	list-style-image: url(images/flechaParrafo.gif);
+}
+.botoneslista {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #003399;
+	text-decoration: none;
+}
+A.botoneslista:hover {
+	color: #0099FF;
+	text-decoration: none;
+}
+
+.subtitulosPlanes {
+
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #336699;
+	text-decoration: none;
+}
+.textito {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #003366;
+}
+.titulosNoticias {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #408AD6;
+	font-style: normal;
+}
+.boton_textos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #003391;
+	text-decoration: none;
+}
+A.boton_textos:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #0099FF;
+	text-decoration: none;
+}
+.boton_textito {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #004BD7;
+}
+A.boton_textito:hover {
+	color: #0099FF;
+	text-decoration: none;
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsrp-producer-registry
+    xmlns="http://www.bea.com/servers/weblogic/wsrp-producer-registry/9.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.bea.com/servers/weblogic/wsrp-producer-registry/9.0 wsrp-producer-registry.xsd"
+    offer-extensions="true">
+
+    <!-- The offer-extensions attribute above informs the consumer whether it can send messges to WLP-extended Web
+    Service ports -->
+    
+    <!-- Upload limit (in bytes) -->
+    <upload-read-limit>1048576</upload-read-limit>
+
+    <!-- Some producers may not be able to attachements sent as a single part. If this is the case, set
+     this to true -->
+    <send-upload-as-several-parts>false</send-upload-as-several-parts>
+
+    <!-- Timeout value for establishing a connection -->
+    <connection-establishment-timeout-msecs>-1</connection-establishment-timeout-msecs>
+
+    <!-- Connection (read) timeout (in milli seconds) -->
+    <connection-timeout-msecs>120000</connection-timeout-msecs>
+
+    <!-- Enable/disable local proxy -->
+    <enable-local-proxy>false</enable-local-proxy>
+
+    <!-- Release sessions upon session expiry on the consumer -->
+    <explicitly-release-sessions>true</explicitly-release-sessions>
+
+    <!-- Add wsrp-producer elements here -->
+
+    <!-- URL templates for producer writing of URLs -->
+    <url-templates>
+        <url-template-ref type="default" name="wsrp-default"/>
+        <url-template-ref type="blockingAction" name="wsrp-blockingAction"/>
+        <url-template-ref type="secureBlockingAction" name="wsrp-secureBlockingAction"/>
+        <url-template-ref type="resource" name="wsrp-resource"/>
+        <url-template-ref type="secureResource" name="wsrp-secureResource"/>
+        <url-template-ref type="render" name="wsrp-render"/>
+        <url-template-ref type="secureRender" name="wsrp-secureRender"/>
+        <url-template-ref type="resource" name="wsrp-resource"/>
+        <url-template-ref type="secureResource" name="wsrp-secureResource"/>
+        <url-template-ref type="standalone" name="wsrp-default"/>
+        <url-template-ref type="secureStandalone" name="wsrp-secureDefault"/>
+        <url-template-ref type="secureDefault" name="wsrp-secureDefault"/>        
+    </url-templates>
+
+    <rewrite-mime-types>
+        <mime-type>text/*</mime-type>
+        <mime-type>application/x-javascript</mime-type>
+        <mime-type>application/xml+xhtml</mime-type>
+    </rewrite-mime-types>
+</wsrp-producer-registry>

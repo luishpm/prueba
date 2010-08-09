@@ -1,0 +1,64 @@
+BODY {
+    BACKGROUND-COLOR: #dee3e7;
+	FONT-SIZE: 11px; 
+	COLOR: #000000; 
+	FONT-FAMILY: Verdana;
+	MARGIN: 0px; 
+	SCROLLBAR-FACE-COLOR: #efefef; 
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; 
+	SCROLLBAR-SHADOW-COLOR: #d1d1d1; 
+	SCROLLBAR-3DLIGHT-COLOR: #ffffff; 
+	SCROLLBAR-ARROW-COLOR: #4A6D13; 
+	SCROLLBAR-DARKSHADOW-COLOR: #d1d1d1; 
+	SCROLLBAR-TRACK-COLOR: #cccccc;
+}
+
+INPUT.texto
+{		
+	background-color:#FFFFFF; 
+	border:1px solid; 
+	border-color:#B1B1B1; 
+	font-family:verdana; color: #454545;
+	font-size:11px
+}
+
+textarea
+{		
+	background-color:#FFFFFF; 
+	border:1px solid; 
+	border-color:#B1B1B1; 
+	font-family:verdana; color: #454545;
+	font-size:11px
+}
+
+A:link {
+	FONT-SIZE: 11px; 
+	COLOR: #000000; 
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif; 
+	text-decoration:none;  
+}
+A:visited {
+	FONT-SIZE: 11px; 
+	COLOR: #000000; 
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif; 
+	text-decoration:none;  
+}
+A:active {
+	bold; FONT-SIZE: 11px; 
+	COLOR: #000000; 
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif; 
+	text-decoration:none;  
+}
+A:hover {
+	FONT-SIZE: 11px; 
+	COLOR: #0875AD; 
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif; 
+	text-decoration:none;  
+}
+
+td {
+	FONT-SIZE: 11px; 
+	COLOR: #000000; 
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif; 
+
+}

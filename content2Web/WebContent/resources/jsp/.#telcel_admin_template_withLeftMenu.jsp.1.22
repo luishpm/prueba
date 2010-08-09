@@ -1,0 +1,112 @@
+<%@ page language="java" contentType="text/html;charset=ISO-8859-1"%>
+<%@ taglib uri="netui-tags-template.tld" prefix="netui-template"%>
+<%@ taglib uri="netui-tags-databinding.tld" prefix="netui-data"%>
+<%@ taglib uri="netui-tags-html.tld" prefix="netui"%>
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<netui:html>
+<HEAD>
+<netui:base />
+<TITLE>. Administrador Telcel .</TITLE>
+<script src="<%=request.getContextPath()%>/resources/js/menu.js"></script>
+<link href="<%=request.getContextPath()%>/resources/css/menu.css" rel="stylesheet" type="text/css">
+<LINK href="<%=request.getContextPath()%>/resources/css/style_admon.css" type=text/css rel=STYLESHEET>
+<LINK href="<%=request.getContextPath()%>/resources/css/displaytag.css" type=text/css rel=STYLESHEET>
+<LINK href="<%=request.getContextPath()%>/resources/css/displaytagAjax.css" type=text/css rel=STYLESHEET>
+<LINK href="<%=request.getContextPath()%>/resources/subModal14/style.css" type=text/css rel=STYLESHEET>
+<LINK href="<%=request.getContextPath()%>/resources/subModal14/subModal.css" type=text/css rel=STYLESHEET>
+<LINK href="<%=request.getContextPath()%>/resources/css/XPBlue.css" type=text/css rel=STYLESHEET>
+<script type="text/javascript" src="<%=request.getContextPath()%>/resources/js/selectbox.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/resources/js/checkbox.js"></script>
+<script src="<%=request.getContextPath()%>/resources/js/util.js"></script>
+
+<script type="text/javascript" src="<%=request.getContextPath()%>/dwr/interface/PlanEquipoHelper.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/dwr/engine.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/dwr/util.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/resources/js/prototype.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/resources/subModal14/common.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/resources/subModal14/subModal.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/resources/js/yahoo/yahoo.js" ></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/resources/js/yahoo/event.js" ></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/resources/js/yahoo/dom.js" ></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/resources/js/yahoo/dragdrop.js" ></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/resources/js/yahoo/dragdrop-debug.js" ></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/resources/js/yahoo/logger.js" ></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/resources/js/yahoo/animation.js" ></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/resources/js/yahoo/implementation/DDList.js" ></script>
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/resources/js/yahoo/implementation/container/css/example.css" />
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/resources/js/yahoo/implementation/container/assets/container.css" />
+<script type="text/javascript" src="<%=request.getContextPath()%>/resources/js/yahoo/connection.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/resources/js/yahoo/container.js"></script>
+
+
+<script type="text/javascript" src="<%=request.getContextPath()%>/dwr/interface/WorkflowHelper.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/dwr/interface/RoamingHelper.js"></script>
+
+<link rel="STYLESHEET" type="text/css" href="<%=request.getContextPath()%>/resources/dhtmlXTree/css/dhtmlXTree.css">
+<script  src="<%=request.getContextPath()%>/resources/dhtmlXTree/js/dhtmlXCommon.js"></script>
+<script  src="<%=request.getContextPath()%>/resources/dhtmlXTree/js/dhtmlXTree.js"></script>
+<link rel="STYLESHEET" type="text/css" href="<%=request.getContextPath()%>/resources/dhtmlXTabbar/css/dhtmlXTabbar.css">
+<script  src="<%=request.getContextPath()%>/resources/dhtmlXTabbar/js/dhtmlXTabbar.js"></script>
+<script  src="<%=request.getContextPath()%>/resources/dhtmlXTabbar/js/dhtmlXTabbar_start.js"></script>
+
+<script type="text/javascript" src="<%=request.getContextPath()%>/resources/js/collapse.js"></script>
+
+<link rel="STYLESHEET" type="text/css" href="<%=request.getContextPath()%>/resources/css/lightbox.css">
+<script type="text/javascript" src="<%=request.getContextPath()%>/resources/js/lightbox.js"></script>
+
+
+<META content="MSHTML 5.00.2614.3500" name=GENERATOR>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></HEAD>
+<BODY  >
+    <table cellpadding="0" cellspacing="0" width="100%">
+        <tr><td><netui-template:includeSection name="header"/></td></tr>
+        <tr><td class="navigationBar">
+            <div id="navigation">
+                <netui-template:includeSection name="menu"/>  
+            </div>
+        </td></tr>
+    </table>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr valign="top"> 
+        <td width="6" bgcolor="#ADC7D6"><img src="<%=request.getContextPath()%>/resources/images/null.gif" width="6" height="8"></td>
+        <td width="1" background="<%=request.getContextPath()%>/resources/images/dotlinebg_vert.gif" bgcolor="#ADC7D6"><img src="<%=request.getContextPath()%>/resources/images/null.gif" width="1" height="1"></td>
+        <td width="155" bgcolor="#ADC7D6">
+         <netui-template:includeSection name="leftMenu"/>
+          </td>
+         
+        <td width="1" background="<%=request.getContextPath()%>/resources/images/dotlinebg_vert.gif" bgcolor="#ADC7D6"><img src="<%=request.getContextPath()%>/resources/images/null.gif" width="1" height="1"></td>
+        <td align="center">
+            <netui-template:includeSection name="body"/>
+          <br>
+          <br>
+          <br>
+        </td>
+      </tr>
+    </table>
+	
+	<script>
+	
+		if ( $('a_tabbar') != null ) {
+			var pathTabbar= '<%=request.getContextPath()%>/resources/dhtmlXTabbar/imgs/';
+			tabbar=new dhtmlXTabBar("a_tabbar","top");
+            tabbar.setImagePath(pathTabbar);
+
+            tabbar.setSkinColors("#FCFBFC","#F4F3EE","#FCFBFC");
+            tabbar.addTab("a1","Servicios","100px");
+            tabbar.addTab("a2","Marcaciones","100px");
+            tabbar.addTab("a3","Tarifas","100px");
+            tabbar.setTabActive("a1");
+
+			tabbar.enableAutoReSize(true);
+			
+			tabbar.setContent("a1","treeboxServicios");
+			tabbar.setContent("a2","treeboxMarcaciones");
+			tabbar.setContent("a3","tarifasDiv");
+
+		}
+	</script>
+	
+</BODY>
+</netui:html>

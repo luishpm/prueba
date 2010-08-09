@@ -1,0 +1,103 @@
+/* display tag styles */
+
+table.grid {
+    width: 85%;	
+}
+
+    table.grid thead tr {
+        background-color: #005676;
+    }
+    
+    table.grid th.sortable, th.sorted th.order1 th.order2 {
+        background-color: #10497D;
+        font-size: 11px; 
+        margin: 0px; 
+        color: #ffffff; 
+        font-family: Verdana, Helvetica, Arial, sans-serif
+    }    
+        table.grid th.sortable a, th.sorted a, th.order1 a, th.order2 a{
+                font-weight: bold;
+                font-size: 11px; 
+                font-family: Verdana, Arial, sans-serif; 
+                text-decoration: underline;        
+        }
+            table.grid th.sortable a:link, th.sortable a:visited, th.sortable a:active {
+                color: #FFFFFF;        
+            }
+            table.grid th.sortable a:hover {
+                color: #ADC7D6;      
+            }
+            table.grid th.sorted a:link, th.sorted a:visited, th.sorted a:active {
+                color: #FFFFFF;        
+            }
+            table.grid th.sorted a:hover {
+                color: #ADC7D6;      
+            }
+            table.grid th.order1 a:link, th.order1 a:visited, th.order1 a:active {
+                color: #FFFFFF;        
+            }
+            table.grid th.order1 a:hover {
+                color: #ADC7D6;      
+            }
+            table.grid th.order2 a:link, th.order2 a:visited, th.order2 a:active {
+                color: #FFFFFF;        
+            }
+            table.grid th.order2 a:hover {
+                color: #ADC7D6;      
+            }
+        
+
+    table.grid tr.even {	
+        background-color: #F8FCFF;
+    }
+    
+    table.grid tr.odd {
+        background-color: #ADC7D6;
+    }
+
+    table.grid td{
+        font-size: 11px; 
+        color: #013239; 
+        font-family: Verdana, Helvetica, Arial, sans-serif        
+    }
+        table.grid td.tdleft {
+            text-align: left;
+            
+        }        
+        table.grid td.tdright {
+            text-align: right;
+        }  
+        table.grid td.tdcenter {
+            text-align: center;
+        }  
+        
+        table.grid td a {
+            font-weight: bold;
+            font-size: 11px; 
+            font-family: Verdana, Arial, sans-serif; 
+            text-decoration: underline;        
+        }
+            table.grid td a:link, a:visited, a:active {
+                color: #7777AA;        
+            }
+            table.grid td a:hover {
+                color: #0875AD;      
+            }
+
+        
+
+
+.bannerTotalRows {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    color: #000000;
+    text-align: center;
+    vertical-align: top;  
+}
+
+.emptyList {
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	color: red;
+	text-align: center;
+}

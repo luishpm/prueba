@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/Oracle WebLogic Server v10.3 JRE"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.syslib"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.core.AppLibrariesContainer/content2"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/beehive-controls-1.0.1-10.0/exact/1.0"/>
+	<classpathentry kind="src" path="build/assembly/.src"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wlp-tools-visitor-web-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wlp-tools-framework-web-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wlp-commonui-web-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wlp-content-ui-framework-web-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wlp-framework-full-web-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wlp-clipper-web-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wlp-lookandfeel-web-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wlp-rest-full-web-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wlp-framework-rest-web-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wlp-rest-web-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wlp-light-web-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wlp-wsrp-producer-web-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wlp-framework-common-web-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wlp-framework-struts-1.2-web-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/struts-1.2/exact/1.2"/>
+	<classpathentry kind="con" path="com.bea.workshop.xmlbeans.lib/version_2_3"/>
+	<classpathentry kind="src" path=".apt_src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="com.bea.wlp.eclipse.common.system"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wlp-services-web-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/content-management-web-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wlp-tools-full-console-app-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wlp-tools-serviceadmin-app-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wlp-tools-ugm-app-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wlp-tools-portal-app-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wlp-tools-im-app-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wlp-tools-content-app-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wlp-tools-common-app-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wlp-tools-framework-app-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wlp-tools-app-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wlp-services-app-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/content-management-app-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/weblogic-controls-10.0/exact/10.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/p13n-web-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wlp-framework-full-app-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wls-commonslogging-bridge/exact/1.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/beehive-netui-1.0.1-10.0/exact/1.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/beehive-netui-resources-1.0.1-10.0/exact/1.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/p13n-app-lib/allow-newer/10.3.0/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wlp-tools-content-web-lib/exact/10.3.0"/>
+	<classpathentry kind="con" path="com.bea.workshop.wls.j2eelib/wlp-tools-common-web-lib/exact/10.3.0"/>
+	<classpathentry kind="src" path="WebContent/WEB-INF/src"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

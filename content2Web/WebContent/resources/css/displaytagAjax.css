@@ -1,0 +1,147 @@
+
+#displayAjax {
+	width: 100%;
+	border-left:1px solid lightgrey;
+	border-top:1px solid lightgrey;
+}
+
+#displayAjax table.displaytag {
+	padding: 0;
+	/*margin: 1px;
+	border: 1px solid #ccc;
+	width: 99%;*/
+}
+
+#displayAjax table.displaytag TH {
+	color:#616161;
+	background-image:url(/admin/resources/images/header_bg_60.gif);
+		border-bottom: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+	text-align: center;
+	margin:0px;
+	padding:5px 0px 5px 0px ;
+	font-weight:bold;
+    -moz-user-select:none;
+    overflow:hidden;
+}
+
+#displayAjax table.displaytag TD {
+
+}
+
+#displayAjax table.displaytag td.row {
+	border:0px;
+	border-bottom: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+	font-family:Tahoma;
+	font-size:8pt;
+    -moz-user-select:none;
+    overflow:hidden;
+    padding-top:0px;
+    padding-bottom:0px;
+	vertical-align:middle;
+	height:20px;
+	}
+
+#displayAjax table.displaytag TD img {
+	border: 0;
+}
+
+#displayAjax table.displaytag TD.rightalign {
+	text-align: right;
+}
+
+#displayAjax table.displaytag TD.centeralign {
+	text-align: center;
+}
+
+#displayAjax table.displaytag TR.odd TD {
+	background-color: white;
+}
+
+#displayAjax table.displaytag TR.even TD {
+	background-color: whitesmoke;
+}
+
+#displayAjax table.displaytag TH.sorted {
+	background-color: white;
+}
+
+#displayAjax table.displaytag TH.sorted a,
+#displayAjax table.displaytag TH.sortable a {
+	display: block;
+	background: url(../img/displaytag/arrow_off.png) no-repeat right;
+	color: #000;
+	text-decoration: none;
+}
+
+#displayAjax table.displaytag TH.sorted a:hover,
+#displayAjax table.displaytag TH.sortable a:hover {
+	color: #f00;
+}
+
+#displayAjax table.displaytag TH.order1 a {
+	background-image: url(../img/displaytag/arrow_down.png);
+}
+
+#displayAjax table.displaytag TH.order2 a {
+	background-image: url(../img/displaytag/arrow_up.png);
+}
+
+span.pagebanner {
+	font: normal 0.7em Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	width: 99%;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	display:block;
+	border-bottom: none;
+}
+
+span.pagelinks {
+	font: normal 0.7em Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px 4px 2px 4px;
+	width: 99%;
+	display:block;
+	border-top: none;
+	margin-bottom: 5px;
+}
+
+span.pagelinks a {
+	color: #00f;
+}
+
+span.pagelinks a:hover {
+	color: #f00;
+}
+
+div.exportlinks {
+	font-size: 0.8em;
+	padding: 2px 4px 2px 4px;
+	margin: 0 0 10px 0;
+	width: 99%;
+}
+
+span.export {
+	padding: 0 4px 1px 20px;
+	display: inline;
+	cursor: pointer;
+}
+
+span.excel {
+	background: url(../img/displaytag/ico_file_excel.png) no-repeat;
+}
+span.csv {
+	background: url(../img/displaytag/ico_file_csv.png) no-repeat;
+}
+span.xml {
+	background: url(../img/displaytag/ico_file_xml.png) no-repeat;
+}
+
+

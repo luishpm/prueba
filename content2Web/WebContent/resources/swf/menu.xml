@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<menu whatFor="telcel" versionpro="1" openSpeed="2" closeSpeed="1.5" title="seciones">
+
+<!-- AMIGO DE TELCEL -->
+<folder title="Amigo de Telcel">
+<file title="Amigo BIP" 								link="amigo_fichas.html"></file>
+<file title="Amigo Kit" 								wnd="centro" link="amigo_de_telcel/amigogsm.html"></file>
+<file title="Amigo GSM" 				    			wnd="centro" link="amigo_de_telcel/saldo_sms.html"></file>
+<file title="Buzon de Voz" 								wnd="centro" link="amigo_de_telcel/pagoxseg.html"></file>
+<file title="Compra de Tiempo Aire" 					wnd="centro" link="amigo_de_telcel/tarifas.html"></file>
+<file title="Consulta de saldo SMS" 					wnd="centro" link="amigo_de_telcel/taire_usa.html"></file>
+<file title="Fichas Amigo" 								wnd="centro" link="amigo_de_telcel/pagoxseg.html"></file>
+<file title="Sistema Amigo" 							wnd="centro" link="amigo_de_telcel/tarifas.html"></file>
+<file title="Tarifas" 									wnd="centro" link="amigo_de_telcel/taire_usa.html"></file>
+<file title="Venta de T.A. en U.S.A." 					wnd="centro" link="amigo_de_telcel/taire_usa.html"></file>
+</folder>
+
+
+<!-- COBERTURA -->
+<folder title="Cobertura">
+<file title="Roaming Mundial" 							wnd="centro" link="buzon/inteligente.html?area=null"></file>
+<file title="Nacional" 									wnd="centro" link="buzon/amigo.html?area=amigo_kit"></file>
+</folder>
+
+
+<!-- EQUIPOS -->
+<folder title="Equipos">
+<file title="GSM y Digitales TDMA" 						wnd="centro" link="equipos/mensajes_5.html?area=null"></file>
+</folder>
+
+
+<!-- INTERNATIONAL -->
+<folder title="International Visitors">
+<file title="National Coverage" 						wnd="centro" link="eventos_telcel/eventos.html"></file>
+<file title="How to Dial" 								wnd="centro" link="eventos_telcel/eventos.html"></file>
+</folder>
+
+
+<!-- MENSAJES -->
+<folder title="Mensajes">
+<file title="Buz%C3%B3n de Voz" 						wnd="centro" link="mensajes/enviar_mensajes.html"></file>
+<file title="Notificador de llamadas" 					wnd="centro" link="mensajes/2vias.html"></file>
+<file title="Mensajes Escritos" 						wnd="blank" link="http://www.ideastelcel.com/mms/index.html"></file>
+<file title="Mensajes Telcel 2 vias" 					wnd="blank" link="http://www.ideastelcel.com/mms/index.html"></file>
+<file title="Mensajes a otros paises" 					wnd="blank" link="http://www.ideastelcel.com/mms/index.html"></file>
+<file title="Mensajes Multimedia" 						wnd="blank" link="http://www.ideastelcel.com/mms/index.html"></file>
+</folder>
+
+
+<!-- NUESTRA EMPRESA -->
+<folder title="Nuestra Empresa">
+<file title="Bienvenida" 								wnd="centro" link="empresa/historia.html?area=historia"></file>
+<file title="Bienestar y Comunicacion" 					wnd="centro" link="empresa/distribuidores.html?area=como_ser_distribuidor"></file>
+<file title="Bolsa de Trabajo" 							wnd="centro" link="empresa/trabajos.html?area=bolsa_de_trabajo"></file>
+<file title="Como ser Distribuidor" 					wnd="centro" link="empresa/glosario.html?area=tecnologia_telcel"></file>
+<file title="Comunidad y Naturaleza" 					wnd="centro" link="empresa/glosario.html?area=tecnologia_telcel"></file>
+<file title="Historia" 									wnd="centro" link="empresa/glosario.html?area=tecnologia_telcel"></file>
+<file title="Tecnologia Telcel" 						wnd="centro" link="empresa/glosario.html?area=tecnologia_telcel"></file>
+</folder>
+
+
+<!-- PLANES TARIFARIOS -->
+<folder title="Planes Tarifarios">
+<file title="Planes de Renta Mensual" 					wnd="centro" link="planes_tarifarios/plan_mensual.html"></file>
+<file title="Requisitos de Contrataci%C3%B3n" 			wnd="centro" link="planes_tarifarios/plan_contratacion.html"></file>
+</folder>
+
+
+<!-- PROMOCIONES -->
+<folder title="Promociones">
+<file title="Tarifario" 								wnd="centro" link="promociones/planes_tarifarios.html"></file>
+<file title="Amigo" 									wnd="centro" link="promociones/plan_amigo.html"></file>
+</folder>
+
+
+<!-- ROAMING INTERNACIONAL -->
+<folder title="Roaming Internacional">
+<file title="Roaming Internacional TDMA" 				wnd="centro" link="#"></file>
+<file title="Roaming Internacional GSM"					wnd="centro" link="#"></file>
+</folder>
+
+
+<!-- SALA DE PRENSA -->
+<folder title="Sala de Prensa">
+<file title="Ultimas noticias" 							wnd="centro" link="sala_de_prensa/sala_prensa.html"></file>
+</folder>
+
+
+<!-- SERVICIOS TELCEL -->
+<folder title="Servicios Telcel">
+<file title="Marcaciones abreviadas" 					wnd="centro" link="servicios_casa_negocio/casa.html?area=para_tu_casa"></file>
+<file title="Servicios Adicionales" 					wnd="centro" link="servicios_casa_negocio/negocio.html?area=para_tu_negocio"></file>
+</folder>
+
+
+<!-- SERV. CASA O NEGOCIO -->
+<folder title="Servicios Casa o Negocio">
+<file title="Equipos Fijos" 							wnd="centro" link="GSM/gsm.html?area=gsm"></file>
+<file title="Para tu Casa" 								wnd="centro" link="GSM/beneficios.html?area=beneficios"></file>
+<file title="Para tu Negocio" 							wnd="centro" link="GSM/servicios.html?area=servicios_de_valor_agregado"></file>
+</folder>
+
+
+<!-- TELCEL GSM -->
+<folder title="Telcel GSM">
+<file title="Qu%C3%A9 es GSM?" 							wnd="centro" link="GSM/gsm.html?area=gsm"></file>
+<file title="Beneficios" 								wnd="centro" link="GSM/beneficios.html?area=beneficios"></file>
+<file title="Valor Agregado" 							wnd="centro" link="GSM/servicios.html?area=servicios_de_valor_agregado"></file>
+</folder>
+
+
+</menu>
+
+
+<!--hexacodigos
+nuevo codigo , codigoHex%C2%AE, codigoHTML174, cmpt
+nuevo codigo , codigoHex%C3%A1, codigoHTML225, cmpt
+nuevo codigo , codigoHex%C3%A9, codigoHTML233, cmpt
+nuevo codigo , codigoHex%C3%AD, codigoHTML237, cmpt
+nuevo codigo , codigoHex%C3%B3, codigoHTML243, cmpt
+nuevo codigo , codigoHex%C3%BA, codigoHTML250, cmpt
+nuevo codigo , codigoHex%C3%81, codigoHTML193, cmpt
+nuevo codigo , codigoHex%C3%89, codigoHTML201, cmpt
+nuevo codigo , codigoHex%C3%8D, codigoHTML205, cmpt
+nuevo codigo , codigoHex%C3%93, codigoHTML211, cmpt
+nuevo codigo , codigoHex%C3%9A, codigoHTML218, cmpt
+nuevo codigo , codigoHex%C3%B1, codigoHTML241, cmpt
+nuevo codigo , codigoHex%C3%91, codigoHTML209, cmpt
+nuevo codigo , codigoHex%C2%B4, codigoHTML180, cmpt-->

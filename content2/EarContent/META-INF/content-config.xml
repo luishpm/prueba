@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content-config xmlns="http://www.bea.com/ns/portal/90/content-config">
+    <!-- This is a default content repository applications can use.
+         The IDE should copy this to META-INF/content-config.xml of the
+         application.
+         This repository is not required for WLP services, so you can remove
+         it or change it as needed. -->
+    <content-store>
+        <name>WLP Repository</name>
+        <description>Default Content Repository Configuration</description>
+        <class-name>com.bea.content.spi.internal.ExtendedRepositoryImpl</class-name>
+        <repository-property>
+            <description>Data source to use.</description>
+            <name>CM_DATA_SOURCE</name>
+            <value>contentDataSource</value>
+        </repository-property>
+        <repository-property>
+            <description>Enable repository events for full-text search.</description>
+            <name>cm_fireRepositoryEvents</name>
+            <value>false</value>
+        </repository-property>
+        <read-only>false</read-only>
+        <binary-cache-max-entry-size>1024</binary-cache-max-entry-size>
+        <!-- metadata search -->
+        <search-is-enabled>true</search-is-enabled>
+        <!-- full text search -->
+        <fulltext-search-is-enabled>false</fulltext-search-is-enabled>
+        <search-indexing-is-enabled>false</search-indexing-is-enabled>
+    </content-store>
+</content-config>

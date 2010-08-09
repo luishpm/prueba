@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faceted-project>
+  <runtime name="Oracle WebLogic Server v10.3"/>
+  <fixed facet="jst.ear"/>
+  <installed facet="jst.ear" version="5.0"/>
+  <installed facet="wls.ear" version="10.3"/>
+  <installed facet="wlp.full-framework-app" version="10.3.0"/>
+  <installed facet="wlp.wps-app" version="10.3.0"/>
+  <installed facet="wlp.admin-framework-app" version="10.3.0"/>
+  <installed facet="wlp.admin-portal-app" version="10.3.0"/>
+  <installed facet="wlp.propagation-app" version="10.3.0"/>
+</faceted-project>

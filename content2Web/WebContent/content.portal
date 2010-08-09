@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portal:root xmlns:html="http://www.w3.org/1999/xhtml-netuix-modified/1.0.0"
+    xmlns:netuix="http://www.bea.com/servers/netuix/xsd/controls/netuix/1.0.0"
+    xmlns:portal="http://www.bea.com/servers/netuix/xsd/portal/support/1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.bea.com/servers/netuix/xsd/portal/support/1.0.0 portal-support-1_0_0.xsd">
+    <netuix:desktop definitionLabel="content_portal" discEnabled="false" dvtEnabled="false"
+        encoding="UTF-8" markupName="desktop" markupType="Desktop" scrollToWindow="true"
+        title="New Portal Desktop" treeOptimizationEnabled="true">
+        <netuix:lookAndFeel definitionLabel="bighornLookAndFeel"
+            description="A new Look and Feel for the Bighorn release."
+            markupName="bighornLookAndFeel" markupType="LookAndFeel" skeleton="bighorn"
+            skin="bighorn" title="Bighorn">
+            <netuix:titlebarButtonOrder>
+                <netuix:otherButtons/>
+                <netuix:namedButton name="float"/>
+                <netuix:namedButton name="edit"/>
+                <netuix:namedButton name="help"/>
+                <netuix:namedButton name="minimized"/>
+                <netuix:namedButton name="maximized"/>
+                <netuix:namedButton name="delete"/>
+            </netuix:titlebarButtonOrder>
+        </netuix:lookAndFeel>
+        <netuix:shell description="A header and footer is included in this shell."
+            markupName="headerFooter" markupType="Shell" title="Header-Footer Shell">
+            <netuix:head/>
+            <netuix:body>
+                <netuix:header/>
+                <netuix:book defaultPage="content_portal_page_1"
+                    definitionLabel="content_portal_book_1" markupName="book" markupType="Book" title="Main Page Book">
+                    <netuix:singleLevelMenu
+                        description="This menu provides a single level of tabs used to navigate across pages."
+                        markupName="singleLevelMenu" markupType="Menu" title="Single Level Menu"/>
+                    <netuix:content>
+                        <netuix:page definitionLabel="content_portal_page_1" markupName="page"
+                            markupType="Page" title="Page 1">
+                            <netuix:content>
+                                <netuix:flowLayout
+                                    description="This layout uses the flowLayout control to create two columns in which placeables flow vertically."
+                                    htmlLayoutUri="/framework/markup/layout/twocolumn.html.txt"
+                                    iconUri="/framework/markup/layout/twocolumn.gif"
+                                    markupName="twoColumnFlowLayout" markupType="Layout"
+                                    orientation="horizontal" title="Two Column Flow Layout">
+                                    <netuix:placeholder
+                                        description="The left most placeholder in this layout."
+                                        markupName="twoColumnFlow_left" markupType="Placeholder"
+                                        title="left" usingFlow="false" width="30%"/>
+                                    <netuix:placeholder
+                                        description="The right most placeholder in this layout."
+                                        markupName="twoColumnFlow_right" markupType="Placeholder"
+                                        title="right" usingFlow="false" width="70%">
+                                        <netuix:portletInstance
+                                            contentUri="/content/repo/workflow/browse/BrowseWorkflows.portlet"
+                                            instanceLabel="content_2frepo_2fworkflow_2fbrowse_2fBrowseWorkflows_2eportlet_1"
+                                            markupType="Portlet" title="Browse Workflows"/>
+                                        <netuix:portletInstance
+                                            contentUri="/content/node/nodeSelected/browse/BrowseNodes.portlet"
+                                            instanceLabel="content_2fnode_2fnodeSelected_2fbrowse_2fBrowseNodes_2eportlet_3"
+                                            markupType="Portlet" title="Browse Nodes"/>
+                                    </netuix:placeholder>
+                                </netuix:flowLayout>
+                            </netuix:content>
+                        </netuix:page>
+                        <netuix:page backingFile="com.test.TestBacking"
+                            definitionLabel="content_portal_page_3" markupName="page"
+                            markupType="Page" title="New Page">
+                            <netuix:content>
+                                <netuix:flowLayout
+                                    description="This layout uses the flowLayout control to create one column in which placeables flow vertically."
+                                    htmlLayoutUri="/framework/markup/layout/singlecolumn.html.txt"
+                                    iconUri="/framework/markup/layout/singlecolumn.gif"
+                                    markupName="oneColumnFlowLayout" markupType="Layout"
+                                    orientation="horizontal" title="One Column Flow Layout">
+                                    <netuix:placeholder
+                                        description="The only placeholder in this layout."
+                                        markupName="oneColumnFlow_center" markupType="Placeholder"
+                                        title="center" usingFlow="false" width="100%">
+                                        <netuix:portletInstance
+                                            contentUri="/content/node/nodeSelected/properties/NodeProperties.portlet"
+                                            instanceLabel="content_2fnode_2fnodeSelected_2fproperties_2fNodeProperties_2eportlet_1"
+                                            markupType="Portlet" title="Node Properties"/>
+                                        <netuix:portletInstance 
+                                            contentUri="/portlets/test/test/test2.portlet"
+                                            instanceLabel="test2_1" markupType="Portlet" title="Test2"/>
+                                       
+                                    </netuix:placeholder>
+                                </netuix:flowLayout>
+                            </netuix:content>
+                        </netuix:page>
+                    </netuix:content>
+                </netuix:book>
+                <netuix:footer/>
+            </netuix:body>
+        </netuix:shell>
+    </netuix:desktop>
+</portal:root>

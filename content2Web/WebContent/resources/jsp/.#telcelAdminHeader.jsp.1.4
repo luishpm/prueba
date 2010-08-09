@@ -1,0 +1,21 @@
+<%@ page import="com.telcel.portal.util.SessionKeys"%>
+<%@ taglib uri="netui-tags-html.tld" prefix="netui"%>
+<%
+    //pageContext.setAttribute("today",new Date());
+    //pageContext.setAttribute("userInfo",session.getAttribute(SessionKeys.USER_INFO));
+%>
+<table bgcolor="#166AAF" width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td>
+        <a href="<%=request.getContextPath()%>">
+            <img border="0" src="<%=request.getContextPath()%>/resources/images/pleca_izq.gif">
+        </a>
+    </td>
+    <td align="right">
+        <div class="infoUser">
+            Bienvenido <strong><netui:content value="{pageContext.userInfo.nombre}"/></strong>,
+            Fecha: <b> <netui:label value="{pageContext.today}"><netui:formatDate pattern="dd/MM/yyyy"/></netui:label></b>
+        </div>
+    </td>
+  </tr>
+</table>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-project guid="content2Web_12a1f7a4624_ceb17f4ce5f0d74c" version="5">
+	<web-app guid="content2Web_12a1f7a4625_c22ce37ed224d094">
+		<web-app-type>com.m7.webapp.java</web-app-type>
+		<folder-mapping project-name="content2Web" project-uri="WebContent" web-app-uri="/"/>
+	</web-app>
+	<properties>
+		<property name="validation.compile" value="true"/>
+		<property name="validation.missingFile" value="true"/>
+		<property name="validation.unresolvedVar" value="false"/>
+		<property name="validation" value="true"/>
+		<property name="taglib.downloadRemote" value="true"/>
+		<property name="validation.resources" value="true"/>
+		<property name="validation.unresolvedType" value="true"/>
+		<property name="validation.compile.jspQuotation" value="false"/>
+	</properties>
+</web-project>
