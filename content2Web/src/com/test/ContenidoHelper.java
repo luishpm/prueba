@@ -148,6 +148,7 @@ public class ContenidoHelper {
         try {
             Configuration cfg = new Configuration();
             StringTemplateLoader stl = new StringTemplateLoader();
+            //Obtener template            
             stl.putTemplate("telcel", readFromFile("/home/luishpm/Oracle/bea103/user_projects/workspaces/default/content2Web/WebContent/portlets/pelicula/"+idTemplate));
             cfg.setTemplateLoader(stl);    
             Template temp = cfg.getTemplate("telcel");  
