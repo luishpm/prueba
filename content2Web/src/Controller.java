@@ -16,7 +16,7 @@ import org.apache.beehive.netui.pageflow.annotations.Jpf;
  * <code>getSomeProperty</code> method, it can be accessed through the 
  * expression <code>${pageFlow.someProperty}</code>.
  *
- * There may be only one page flow in any package.
+ * There may be only one page flow in any package. Test
  */
 @Jpf.Controller(simpleActions = { @Jpf.SimpleAction(name = "begin", path = "index.jsp") })
 public class Controller extends PageFlowController {
